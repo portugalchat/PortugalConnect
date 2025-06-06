@@ -1,0 +1,35 @@
+Build a scalable 1-on-1 portugal random chat web app with the following key features:
+landing page:
+where we talk about all our functions and where users can create an account 
+this new portuguêse random chat should be in Portuguese
+🔹 Core Functionality:
+1. Users can chat 1-on-1 with random people from portugal.
+2. Matching is based on gender filters only; all other aspects are random.
+3. Users can skip a conversation and immediately get connected to someone new, making sure that we do not conect the user to the skiped user
+4. Real-time communication must use WebSockets with automatic reconnection on connection loss.
+5. Users can upload and share image files in chat.
+🔹 Friends & Private Chat:
+6. Users can send friend requests to each other.
+7. If both users accept, they become friends and can chat privately outside the random queue.
+8. Private chats must have message history stored securely in a database.
+9. Random conversations do NOT need to be stored.
+🔹 UI/UX:
+12. The UI should be sleek, modern, responsive, and visually engaging.
+13. Must work well on both desktop and mobile devices.
+14. Design the frontend using **React** (or suggest a better alternative if needed).
+15. Use a clean component-based structure, with transitions/animations for connecting, skipping, or accepting friends.
+🔹 Backend & Infra:
+16. Use WebSockets for real-time communication (with auto-reconnect logic).
+17. Design a backend that can support **hundreds of thousands of concurrent users** 
+18. Implement an efficient matchmaking queue for 1-on-1 chat.
+19. Implement user session handling and friend management.
+20. Suggest the best infrastructure (cloud platform) to host and scale the project — such as AWS, GCP, or Railway — prioritize **scalability, cost-efficiency, and ease of deployment**.
+21. Use the best-suited database(s) for each need 
+22. Frontend and backend can be monolithic or separate — choose based on best practices and project scalability.
+23. Implement basic image upload & storage securely (e.g., use S3 or equivalent for media uploads).
+🔹 Other Notes:
+- No moderation or content filtering is needed for now.
+- Allow the Replit AI Agent to choose and implement libraries, frameworks, and architectural patterns based on current best practices in large-scale real-time apps.
+🎯 Goal:
+Build an MVP of this chat system with all essential backend, frontend, and infrastructure components working — prioritize scalability, performance, and developer-friendly structure, this portuguese  chat needs to handle milions of concorrente users so we should use the best practices
+you can also add functions that you find necessary for a random chat so we can create the most modern and advanced random chat in the world , this random chat must be in portuguese
